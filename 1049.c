@@ -9,8 +9,6 @@ int main() {
     scanf("%s", classe_animal);
     scanf("%s", alimentacao);  
 
-
-
     if(strcmp(filo_animal, "vertebrado")==0 && strcmp(classe_animal, "ave")==0 && strcmp(alimentacao, "carnivoro")==0)
         puts("aguia");
 
