@@ -2,16 +2,15 @@
  
 int main() {
  
-   int inicio, fim, t;
-   scanf("%d%d", &inicio, &fim);
+    int inicial, final, duracao;
+    scanf("%d%d", &inicial, &final);
 
-   t = fim - inicio;
+    duracao = final - inicial;
 
-   if (t <= 0)
-       t += 24;
+    if (duracao <= 0)
+        duracao += 24;
 
-    printf("O JOGO DUROU %d HORA(S)\n", t); 
-    
-
+    printf("O JOGO DUROU %d HORA(S)\n", duracao);    
+ 
     return 0;
-}
+} 
