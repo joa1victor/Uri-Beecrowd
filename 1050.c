@@ -2,7 +2,7 @@
  
 int main() {
  
-    int ddd, destino;
+    int ddd;
 
     scanf("%d", &ddd);
 
