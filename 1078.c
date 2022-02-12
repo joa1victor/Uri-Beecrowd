@@ -13,8 +13,6 @@ int main() {
         printf("%d x %d = %d\n", i, num, tabu);
 
     }
- 
     
-
     return 0;
 }
