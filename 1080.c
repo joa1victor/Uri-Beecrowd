@@ -2,21 +2,23 @@
  
 int main() {
  
-    int i, posicao, num, maior;
+    int n, i, maior, posicao;
+
+    maior = 0;
 
     for (i=1; i<=100; i++){
 
-        scanf("%d", &num);
+        scanf("%d", &n);
 
-            if (maior<num){
-                maior = num;
-                posicao = i;
-            }
-        
-    } 
+        if (n>maior){
+            maior = n;
+            posicao = i;
+        }
+
+
+    }
 
     printf("%d\n%d\n", maior, posicao);
-    
- 
+
     return 0;
 }
