@@ -15,7 +15,6 @@ int main(){
             else
                 printf("I=%.1lf J=%.1lf\n", i, k); 
         }
-        
     }
     
     return 0;
