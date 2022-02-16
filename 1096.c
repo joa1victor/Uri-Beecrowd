@@ -8,7 +8,8 @@ int main() {
         for (j = 7; j >= 5; j--)
 
         printf("I=%d J=%d\n", i, j);
+
         }
-    
+
     return 0;
 }
