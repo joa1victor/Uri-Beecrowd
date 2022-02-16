@@ -11,7 +11,7 @@ int main(){
             k = i + j;
 
             if (i==0 || (i>0.9 && i<1.1) || i>1.8)
-                printf("I=%.1f J=%.1f\n", i, k);
+                printf("I=%.lf J=%.lf\n", i, k);
             else
                 printf("I=%.1lf J=%.1lf\n", i, k); 
         }
