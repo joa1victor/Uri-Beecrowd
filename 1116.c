@@ -17,7 +17,6 @@ int main() {
                 div = (float)x/y;
             printf("%.1f\n", div);
         }
-
     }
  
     return 0;
