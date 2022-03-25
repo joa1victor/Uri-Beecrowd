@@ -2,7 +2,7 @@
 
 int main() {
 
-    int i=1, j;
+    int i;
     int x, y;
 
     while (x!=y){
