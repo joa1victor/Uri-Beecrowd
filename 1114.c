@@ -8,7 +8,6 @@ int main(){
     while(senha!=2002){
 
         scanf("%d", &senha);
-
         if (senha!=2002){
             puts("Senha Invalida\n");
         } else {
