@@ -10,7 +10,7 @@ int main(){
         scanf("%d", &senha);
 
         if (senha!=2002){
-            printf("Senha Invalida\n");
+            puts("Senha Invalida\n");
         } else {
             puts("Acesso Permitido");
         }        
