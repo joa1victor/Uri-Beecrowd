@@ -2,7 +2,7 @@
  
 int main() { 
  
-    int i=0, count=0, calculo, calculodnv;
+    int i=0, count=0, calculo;
     float nota, count2=0, media, notanova = 0;
 
     while(calculo!=2){
